@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony.GS — Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- ── HEADER ── -->
+    <header class="header" id="header">
+        <a href="#home" class="logo">Anthony<span>.GS</span></a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- ── HERO ── -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <p class="greeting">Hello, I'm</p>
+            <h1>Anthony<br>Golly-Stanley<span class="cursor">|</span></h1>
+            <h3>Frontend <span class="accent">Developer</span></h3>
+            <p class="hero-desc">I craft clean, performant web experiences that turn ideas into pixel-perfect reality. Currently open to new opportunities.</p>
+            <div class="btn-box">
+                <a href="#projects" class="btn-primary">View Work</a>
+                <a href="#contact" class="btn-outline">Hire Me</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.facebook.com/profile.php?id=61550774429228" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/AnthonyGol16173" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/anthony-golly/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/FejiroGolly" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section class="about" id="about">
+        <div class="section-label">About Me</div>
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>Building the <span class="accent">web</span>, one component at a time.</h2>
+                <p>I'm a junior frontend developer passionate about creating intuitive, accessible, and visually engaging interfaces. I love the intersection of design and code — where a well-timed transition can tell a story all by itself.</p>
+                <p>When I'm not coding, you'll find me tinkering with new frameworks, contributing to open source, or sketching UI ideas on paper.</p>
+                <a href="#" class="btn-primary" download>Download CV <i class="fa-solid fa-download"></i></a>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <span class="stat-num">4+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-num">3</span>
+                    <span class="stat-label">Technologies Mastered</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-label">Passion for Code</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-num">∞</span>
+                    <span class="stat-label">Cups of Coffee</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section class="projects" id="projects">
+        <div class="section-label">My Work</div>
+        <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+                <div class="project-icon"><i class="fa-solid fa-cloud-sun"></i></div>
+                <div class="project-meta">
+                    <span class="project-tag">API · JavaScript</span>
+                </div>
+                <h3>Weather App</h3>
+                <p>A real-time weather dashboard that fetches live data via the OpenWeatherMap API. Search any city and get current conditions, humidity, wind and speed.</p>
+                <div class="project-links">
+                    <a href="https://github.com/FejiroGolly/Weather-App" class="link-demo">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="#" class="link-code"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-icon"><i class="fa-solid fa-list-check"></i></div>
+                <div class="project-meta">
+                    <span class="project-tag">HTML · CSS · JS</span>
+                </div>
+                <h3>Task Manager</h3>
+                <p>A minimal to-do app with drag-and-drop task ordering, priority labels, and local-storage persistence so your tasks survive a page refresh.</p>
+                <div class="project-links">
+                    <a href="https://github.com/FejiroGolly/To-Do-List-App" class="link-demo">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="#" class="link-code"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-icon"><i class="fa-solid fa-calculator"></i></div>
+                <div class="project-meta">
+                    <span class="project-tag">HTML · CSS · JS</span>
+                </div>
+                <h3>Calculator App</h3>
+                <p>A fully functional calculator with keyboard support, history log, and a smooth dark-glass UI. Handles edge cases like division by zero gracefully.</p>
+                <div class="project-links">
+                    <a href="#" class="link-demo">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="#" class="link-code"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </article>
+
+            <article class="project-card project-card--cta">
+                <div class="project-icon"><i class="fa-solid fa-code"></i></div>
+                <h3>More on GitHub</h3>
+                <p>Browse the rest of my projects, contributions, and experiments on GitHub.</p>
+                <a href="https://github.com/FejiroGolly" class="btn-primary" style="margin-top:auto;">Visit GitHub <i class="fa-brands fa-github"></i></a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section class="skills" id="skills">
+        <div class="section-label">Toolbox</div>
+        <h2 class="section-title">Skills &amp; <span class="accent">Technologies</span></h2>
+        <div class="skills-grid">
+            <div class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5</div>
+            <div class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+            <div class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript</div>
+            <div class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</div>
+            <div class="skill-pill"><i class="fa-brands fa-figma"></i> Figma</div>
+            <div class="skill-pill"><i class="fa-solid fa-mobile-screen"></i> Responsive Design</div>
+            <div class="skill-pill"><i class="fa-solid fa-bolt"></i> REST APIs</div>
+        </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section class="contact" id="contact">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Let's <span class="accent">Work Together</span></h2>
+        <p class="contact-sub">Have a project in mind? I'm currently available for freelance work and full-time roles. Drop me a message!</p>
+
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <span class="ci-label">Email</span>
+                        <a href="mailto:anthonygolly3@gamil.com">anthonygolly3@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <span class="ci-label">Location</span>
+                        <span>Lagos, Nigeria</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                        <span class="ci-label">Availability</span>
+                        <span class="available">Open to opportunities</span>
+                    </div>
+                </div>
+                <div class="contact-socials">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="footer">
+        <p>Designed &amp; built by <span class="accent">Anthony Golly-Stanley</span> · 2026</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script>
+        // Sticky header shadow
+        window.addEventListener('scroll', () => {
+            document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Active nav link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.navbar a');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(s => {
+                if (window.scrollY >= s.offsetTop - 120) current = s.id;
+            });
+            navLinks.forEach(a => {
+                a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+            });
+        });
+
+        // Mobile menu
+        document.getElementById('menuBtn').addEventListener('click', () => {
+            document.querySelector('.navbar').classList.toggle('open');
+        });
+
+        // Form submit mock
+        function handleSubmit(e) {
+            e.preventDefault();
+            const btn = e.target.querySelector('button[type=submit]');
+            btn.textContent = '✓ Message Sent!';
+            btn.style.background = '#00c67a';
+            setTimeout(() => { btn.textContent = 'Send Message'; btn.style.background = ''; e.target.reset(); }, 3000);
+        }
+    </script>
+</body>
+</html>
